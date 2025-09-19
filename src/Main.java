@@ -39,7 +39,8 @@ public class Main {
             System.out.println("El resultado de la multiplicación es: " + resultado);
         } else if (opcion == 4) {
             // Usa una condición 'if' para evitar la división por cero
-            if (numero2 != 0) { // Usa el operador de comparación '!='
+            if (numero2
+                    != 0) { // Usa el operador de comparación '!='
                 double resultado = (double) numero1 / numero2;
                 System.out.println("El resultado de la división es: " + resultado);
             } else {
